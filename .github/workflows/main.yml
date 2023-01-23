@@ -6,16 +6,13 @@ jobs:
     job1:
         name: First Job
         runs-on: ubuntu-latest
-        steps:
-          - name: Step one
+        steps: 
           - run: date
-          - name: Sep two
           - run: time
     job2:
         name: Second Job
         runs-on: windows-latest
         steps:
-          - name: Step one
+         
           - run: date
-          - name: Step two
           - run: time
