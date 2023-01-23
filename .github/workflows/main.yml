@@ -15,4 +15,3 @@ jobs:
         steps:
          
           - run: date
-          - run: time
